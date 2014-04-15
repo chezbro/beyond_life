@@ -43,3 +43,22 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+gem 'bundler'
+
+group :development do
+  gem 'better_errors'
+end
+
+gem 'binding_of_caller'
+gem 'bootstrap-sass', github: 'twbs/bootstrap-sass'
+gem 'bootstrap-sass-extras'
+gem 'google-analytics-rails'
+gem 'acts_as_votable'
+gem 'devise', github: 'plataformatec/devise'
+gem 'omniauth'
+gem 'omniauth-facebook'
+gem 'validates_formatting_of'
+
+group :development, :test do
+  gem 'dotenv-rails'
+end
