@@ -50,6 +50,7 @@ group :development do
 end
 
 gem 'binding_of_caller'
+gem 'jeet', :git => 'https://github.com/corysimmons/jeet-rails.git'
 gem 'bootstrap-sass', github: 'twbs/bootstrap-sass'
 gem 'bootstrap-sass-extras'
 gem 'google-analytics-rails'

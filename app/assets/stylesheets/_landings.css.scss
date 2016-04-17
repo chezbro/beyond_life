@@ -1,0 +1,58 @@
+// Place all the styles related to the Landings controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.background-white{
+  background: #fff;
+}
+.background-off-white{
+  background: $off-white;
+}
+.background-light-gray{
+  background: $light-gray;
+}
+.links{ 
+  li{
+    float: right;
+    margin: 25px 50px;
+    a{
+     color:$white;
+     text-decoration: none;
+     font-size: 20px;
+     font-family: "Helvetica";
+     font-weight: 100;
+    }
+  }
+
+}
+.logout{
+  margin: 25px 50px;
+}
+
+.yellow-iwt-box{
+  background:$yellow;
+}
+.slate-pane{
+  background:$slate-gray;
+
+}
+
+// dashboard
+
+.course-container{
+  height: 345px;
+  width: 325px;
+  background: $white;
+  display: inline-block;
+}
+
+// course
+
+.middle-container{
+  @include col(6/12, $offset: 3/12);
+  
+  h1,p{
+    padding:10px;
+  }
+
+
+}

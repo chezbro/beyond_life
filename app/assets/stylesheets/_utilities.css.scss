@@ -1,0 +1,75 @@
+// Columns
+.one-eigth{
+  @include col(1/8);
+}
+.one-sixth{
+  @include col(2/12);
+}
+.one-fifth{
+  @include col(1/5);
+}
+.one-fourth{
+  @include col(3/12)
+}
+.one-third{
+  @include col(4/12)
+}
+.one-half{
+  @include col(6/12);
+}
+.two-thirds{
+  @include col(8/12);
+}
+.three-fourths{
+  @include col(9/12); 
+}
+.four-fifths{
+  @include col(4/5);
+}
+
+.twenty{
+  @include col(1/5);
+}
+
+.eighty{
+  @include col(4/5);
+}
+
+
+.full{
+  @include col(12/12);
+}
+
+// MARGIN
+.no-margin{
+  margin: 0px;
+}
+
+// WIDTH
+.width-one-hundred{
+  width: 100%;
+}
+// HEIGHT
+.height-one-hundred{
+  height: 100%;
+}
+
+// FLOAT
+.float-left{
+  float: left;
+}
+.float-right{
+  float: right;
+}
+// IMG
+.img-responsive{
+  width:100%;
+  height:auto;
+  display:block;
+}
+
+.img-responsive-vertical{
+  height:100%;
+  width:auto;
+  display:block;
+}
