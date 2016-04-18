@@ -27,12 +27,26 @@
   @include col(4/5);
 }
 
+.ten{
+  @include col(1/10);
+}
+
 .twenty{
   @include col(1/5);
+}
+.twenty-five{
+  @include col(1/4);
+}
+.seventy-five{
+  @include col(3/4);
 }
 
 .eighty{
   @include col(4/5);
+}
+
+.ninety{
+  @include col(4.5/5);
 }
 
 

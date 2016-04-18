@@ -4,6 +4,10 @@
 .background-white{
   background: #fff;
 }
+
+.background-black{
+  background: #000;
+}
 .background-off-white{
   background: $off-white;
 }
@@ -45,7 +49,11 @@
   display: inline-block;
 }
 
-// course
+.sidebar{
+  h1,h2, p{
+    color: #fff;
+  }
+}
 
 .middle-container{
   @include col(6/12, $offset: 3/12);
